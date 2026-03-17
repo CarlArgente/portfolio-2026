@@ -20,7 +20,7 @@ export const Bio = {
     "UI/UX Designer",
   ],
   description:
-    "Versatile Microsoft DevOps and Developer with expertise in automating build, deployment, and release processes. Proficient in Azure DevOps, CI/CD pipelines, and coding. Adept at optimizing development workflows for efficiency and reliability.",
+    "Results-driven C# and .NET Developer with 4+ years of experience building scalable web and desktop applications across agile, distributed teams. Proficient in ASP.NET Core, Azure cloud services, and CI/CD pipelines via Azure DevOps. Proven track record of leading back-end teams, mentoring peers, and delivering clean, well-documented code aligned with industry best practices.",
   github: "https://github.com/CarlArgente",
   resume:
     "https://drive.google.com/file/d/1V3PP4RViHh4u-tp_D0SkYbiosDQnSbip/view?usp=sharing",

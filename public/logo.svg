@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Background square with rounded corners -->
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="#8b5cf6" stroke="#1e293b" stroke-width="2.5"/>
+  <!-- Inner pop-shadow detail -->
+  <rect x="2" y="2" width="44" height="44" rx="12" fill="none" stroke="#1e293b" stroke-width="2.5"/>
+  <!-- "C" letter -->
+  <text x="7" y="34" font-family="Georgia, serif" font-size="26" font-weight="900" fill="#ffffff" letter-spacing="-1">C</text>
+  <!-- "A" letter -->
+  <text x="24" y="34" font-family="Georgia, serif" font-size="26" font-weight="900" fill="#fbbf24" letter-spacing="-1">A</text>
+</svg>

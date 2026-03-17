@@ -28,9 +28,10 @@ export function Header() {
           initial={{ scale: 0.8, opacity: 0 }}
           animate={{ scale: 1, opacity: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
-          className="font-display text-2xl font-extrabold text-slate-800 shrink-0"
+          className="flex items-center gap-3 shrink-0"
         >
-          Find Carl
+          <img src="/logo.svg" alt="CA" className="w-9 h-9" />
+          <span className="font-display text-2xl font-extrabold text-slate-800">Find Carl</span>
         </motion.div>
 
         <button
