@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #fffdf5;
+  --fg: #1e293b;
+  --muted: #f1f5f9;
+  --border: #e2e8f0;
+  --violet: #8b5cf6;
+  --pink: #f472b6;
+  --yellow: #fbbf24;
+  --mint: #34d399;
+  --pop-shadow: 4px 4px 0 0 #1e293b;
+  --pop-shadow-hover: 6px 6px 0 0 #1e293b;
+}
+
+* {
+  @apply antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply text-slate-800 font-body;
+  background-color: var(--bg);
+  background-image: radial-gradient(circle, rgba(139, 92, 246, 0.16) 1.2px, transparent 1.2px);
+  background-size: 20px 20px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--violet);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #7c3aed;
+}
+
+.pop-card {
+  @apply bg-white border-2 border-slate-800 rounded-2xl;
+  box-shadow: var(--pop-shadow);
+}
+
+.card-lift {
+  @apply transition-all duration-300;
+}
+
+.card-lift:hover {
+  transform: translate(-2px, -2px) rotate(-0.5deg);
+  box-shadow: var(--pop-shadow-hover);
+}
+
+.candy-btn {
+  @apply inline-flex items-center justify-center rounded-full border-2 border-slate-800 px-6 py-3 font-bold transition-all duration-300;
+  box-shadow: var(--pop-shadow);
+}
+
+.candy-btn:hover {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--pop-shadow-hover);
+}
+
+.candy-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 0 #1e293b;
+}
+
+.section-title {
+  @apply font-display text-4xl md:text-5xl font-extrabold text-slate-800;
+}
