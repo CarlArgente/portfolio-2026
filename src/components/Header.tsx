@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 
 export function Header() {
-  const navItems = ['home', 'projects', 'about', 'education', 'testimonials', 'contact']
+  const navItems = ['home', 'projects', 'about', 'experience', 'education', 'testimonials', 'contact']
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   const [activeHash, setActiveHash] = useState('')
 

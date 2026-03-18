@@ -48,4 +48,17 @@ declare module '@/data/constants.js' {
     desc: string
     degree: string
   }>
+
+  export const experiences: Array<{
+    id: number
+    role: string
+    company: string
+    date?: string
+    period?: string
+    setup?: string
+    desc?: string[]
+    responsibilities?: string[]
+    skills?: string[]
+    technologies?: string[]
+  }>
 }
