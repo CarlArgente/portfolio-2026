@@ -28,16 +28,16 @@ export function Education() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: idx * 0.08 }}
               viewport={{ once: true }}
-              className={`relative mb-8 md:mb-10 md:w-[calc(50%_-_2rem)] ${
+              className={`relative mb-8 md:mb-10 ml-10 md:ml-0 md:w-[calc(50%_-_2rem)] ${
                 idx % 2 === 0 ? 'md:mr-auto' : 'md:ml-auto'
               }`}
             >
               <div
-                className="absolute left-[-1.75rem] md:left-auto md:top-6 md:-translate-x-1/2 h-4 w-4 rounded-full md:left-1/2"
+                className="absolute -left-8 md:left-auto md:top-6 md:-translate-x-1/2 h-4 w-4 rounded-full md:left-1/2"
                 style={{ background: '#e85d26', border: '2px solid #f0efe8', boxShadow: '0 0 0 2px #9ca3af' }}
               ></div>
 
-              <div className="pop-card card-lift p-6 ml-10 md:ml-0">
+              <div className="pop-card card-lift p-6">
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-3 sm:gap-4">
                   <div className="flex-1 min-w-0">
                     <h3 className="font-display text-lg text-black font-semibold">{item.degree}</h3>

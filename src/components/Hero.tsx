@@ -87,11 +87,11 @@ export function Hero() {
 
         <motion.div
           variants={itemVariants}
-          className="relative h-[600px]"
+          className="relative h-[420px] sm:h-[500px] lg:h-[600px]"
         >
-          {/* Orange circle — right side, behind card. Left edge tucks under card right edge */}
+          {/* Orange circle — hidden on mobile, shows on sm+ */}
           <div
-            className="absolute rounded-full"
+            className="absolute rounded-full hidden sm:block"
             style={{
               background: '#e85d26',
               width: '220px', height: '220px',
@@ -101,20 +101,20 @@ export function Hero() {
             }}
           />
 
-          {/* Peach card — covers left portion of orange circle */}
+          {/* Peach card — full width on mobile, partial on desktop */}
           <div
-            className="absolute rounded-3xl"
+            className="absolute rounded-3xl right-[4%] sm:right-[20%]"
             style={{
               background: '#fce8d5',
               top: '6%', bottom: '8%',
-              left: '4%', right: '20%',
+              left: '4%',
               zIndex: 2,
             }}
           />
 
-          {/* Dot grid — top right corner */}
+          {/* Dot grid — hidden on mobile */}
           <div
-            className="absolute pointer-events-none"
+            className="absolute pointer-events-none hidden sm:block"
             style={{
               top: '2%', right: '4%',
               width: '130px', height: '130px',
@@ -124,9 +124,9 @@ export function Hero() {
             }}
           />
 
-          {/* Small orange ring — top left */}
+          {/* Small orange ring — hidden on mobile */}
           <div
-            className="absolute rounded-full"
+            className="absolute rounded-full hidden sm:block"
             style={{
               border: '2.5px solid #e85d26',
               width: '22px', height: '22px',
@@ -135,17 +135,15 @@ export function Hero() {
             }}
           />
 
-          {/* Person image — overflows card top */}
+          {/* Person image — centered on mobile, offset left on desktop */}
           <img
             src="/hero_section_image.png"
             alt="Carl Argente"
-            className="absolute"
+            className="absolute -translate-x-1/2 left-1/2 lg:left-[38%]"
             style={{
               height: '96%',
               width: 'auto',
               bottom: '4%',
-              left: '38%',
-              transform: 'translateX(-50%)',
               objectFit: 'contain',
               zIndex: 4,
             }}
