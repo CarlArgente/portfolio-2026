@@ -16,8 +16,7 @@ export function Footer() {
       id="contact"
       className="py-16 px-6"
     >
-      <div className="max-w-6xl mx-auto">
-        {/* CTA Section */}
+      <div className="max-w-[1400px] mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -25,25 +24,24 @@ export function Footer() {
           viewport={{ once: true }}
           className="pop-card card-lift p-8 text-center mb-12"
         >
-          <h3 className="font-display text-3xl md:text-4xl font-bold text-slate-800 mb-4">
+          <h3 className="font-display text-3xl md:text-4xl font-bold text-black mb-4">
             Let's Work Together
           </h3>
-          <p className="text-slate-600 mb-6 max-w-2xl mx-auto">
+          <p className="text-black mb-6 max-w-2xl mx-auto">
             Open to opportunities and collaborations. Reach out and let's build something great.
           </p>
           <motion.a
             href={Bio.resume}
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="candy-btn bg-violet-500 text-white"
+            whileHover={{ scale: 1.03 }}
+            whileTap={{ scale: 0.97 }}
+            className="candy-btn"
           >
             View Resume
           </motion.a>
         </motion.div>
 
-        {/* Social Links */}
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -57,16 +55,15 @@ export function Footer() {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              whileHover={{ x: 5 }}
-              className="text-slate-600 hover:text-violet-700 transition-colors font-semibold flex items-center gap-2"
+              whileHover={{ x: 4 }}
+              className="text-[#9ca3af] hover:text-[#e85d26] transition-colors font-medium flex items-center gap-2 text-sm"
             >
               {link.name} <span>{link.icon}</span>
             </motion.a>
           ))}
         </motion.div>
 
-        {/* Copyright */}
-        <div className="border-t-2 border-slate-800 pt-8 text-center text-slate-500 text-sm">
+        <div className="pt-8 text-center text-[#9ca3af] text-sm" style={{ borderTop: '1px solid #9ca3af' }}>
           <p>
             © {currentYear} {Bio.name}.
           </p>

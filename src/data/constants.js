@@ -10,14 +10,27 @@ import Zookie from "../images/Project_Zookie.jpg"
 import Zyrus from '../images/person_zyrus.jpg';
 import Din from '../images/person_din.jpg';
 import Enrico from '../images/person_enrico.jpg';
+import Pharmamedyx from '../images/Project_Pharmamedyx.png';
+import RentaPh from '../images/renta.png';
+import Romblon from '../images/romblon_booking_app.jpg';
+import Hiventra from '../images/hiventra_landing_page.png';
+import BeyondLash from '../images/beyond_lash.png';
+import FlatBunny from '../images/flat_bunny.png';
+import Riviera_maya from '../images/rivera_maya.png';
+import PupilHive from '../images/PupilHive.png';
+import TindaGo from '../images/Tinda-go.png';
+import Aclr from '../images/ACLR-POS-Landing-Page.png';
+import Mcfly from '../images/mcfly.png';
+import John from '../images/person_john.png';
+import Allen from '../images/person_allen.png';
+import Jun from '../images/person_jun.png';
 
 export const Bio = {
   name: "Carl Argente",
   roles: [
-    "Full Stack .NET Developer",
+    "Software Engineer",
     "DevOps Engineer",
     "Web Developer",
-    "UI/UX Designer",
   ],
   description:
     "Results-driven C# and .NET Developer with 4+ years of experience building scalable web and desktop applications across agile, distributed teams. Proficient in ASP.NET Core, Azure cloud services, and CI/CD pipelines via Azure DevOps. Proven track record of leading back-end teams, mentoring peers, and delivering clean, well-documented code aligned with industry best practices.",
@@ -50,8 +63,28 @@ export const TestimonialPersons = [
     name: "Enrico Emil Dela Rosa",
     company: "GECO Asia Pte Ltd",
     position: "Fullstack Web Developer",
-    desc: "“Carl Emerson Argente is very hard working and very diligent. Does not put off work. Analytical and a great problem solver. We have given him the nickname, “Backend King“ .“ "
-
+    desc: "“Carl Argente is very hard working and very diligent. Does not put off work. Analytical and a great problem solver. We have given him the nickname, “Backend King“ .“ "
+  },
+   {
+    image: John,
+    name: "John David Lace",
+    company: "G2 Travel",
+    position: "Data Availability and Stop-Sale Operations",
+    desc: "“Carl Argente helped me learn automation and AI tools that enhanced my productivity and improved my workflow efficiency. His guidance, technical knowledge, and practical approach made complex technologies easier to understand and apply in my professional responsibilities.”"
+  },
+   {
+    image: Allen,
+    name: "Allen Camacho",
+    company: "CXC Global",
+    position: "Senior Client Acquisition",
+    desc: "“Carl Argente helped me create a professional landing page for my business, delivering a modern, user-friendly, and visually appealing design. His expertise, attention to detail, and understanding of business needs contributed to building an effective online presence for my brand.”"
+  },
+   {
+    image: Jun,
+    name: "Jun-jun Javillonar",
+    company: "UNO Digital Bank (UNISON Inc.)",
+    position: "IT Endpoint Engineer",
+    desc: "“Carl Argente helped me develop a ticketing application for our company, delivering a reliable and efficient solution that improved our workflow and issue management process. His technical expertise, professionalism, and dedication ensured that the system met our business requirements and operational needs.”"
   },
 ];
 export const skills = [
@@ -112,6 +145,16 @@ export const skills = [
         image:
           "https://miro.medium.com/v2/resize:fit:1000/0*d4sKht87TQOAmZom.png",
       },
+       {
+        name: "Shadcn Components",
+        image:
+          "https://miro.medium.com/v2/resize:fit:1000/0*d4sKht87TQOAmZom.png",
+      },
+       {
+        name: "Radix UI",
+        image:
+          "https://miro.medium.com/v2/resize:fit:1000/0*d4sKht87TQOAmZom.png",
+      },
     ],
   },
   {
@@ -165,6 +208,31 @@ export const skills = [
         image:
           "https://github.com/Azure/ALZ-Bicep/wiki/media/bicep-logo.png",
       },
+      {
+        name: "Next.JS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg",
+      },
+      {
+        name: "NodeJS",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg",
+      },
+      {
+        name: "PostgreSQL",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg",
+      },
+      {
+        name: "Supabase",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg",
+      },
+      {
+        name: "Auth0",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg",
+      },
     ],
   },
   {
@@ -202,6 +270,16 @@ export const skills = [
       },
       {
         name: "Function Apps",
+        image:
+          "https://code.benco.io/icon-collection/azure-icons/Function-Apps.svg",
+      },
+      {
+        name: "Azure Data Factory",
+        image:
+          "https://code.benco.io/icon-collection/azure-icons/Function-Apps.svg",
+      },
+      {
+        name: "Blob Storage",
         image:
           "https://code.benco.io/icon-collection/azure-icons/Function-Apps.svg",
       },
@@ -260,11 +338,7 @@ export const skills = [
         image:
           "https://seeklogo.com/images/T/trello-logo-CE7B690E34-seeklogo.com.png",
       },
-      {
-        name: "Discord",
-        image:
-          "https://cdn.worldvectorlogo.com/logos/discord-6.svg",
-      },
+   
       {
         name: "Notion",
         image:
@@ -297,6 +371,16 @@ export const skills = [
       },
       {
         name: "Microsoft IIS",
+        image:
+          "https://logowik.com/content/uploads/images/microsoft-iis2928.jpg",
+      },
+       {
+        name: "Vercel",
+        image:
+          "https://logowik.com/content/uploads/images/microsoft-iis2928.jpg",
+      },
+       {
+        name: "Netlify",
         image:
           "https://logowik.com/content/uploads/images/microsoft-iis2928.jpg",
       },
@@ -480,6 +564,34 @@ export const experiences = [
       "FedEx",
     ],
   },
+  {
+    id: 6,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTU3ZLlnEiHCdo2PM0_8l57P9xHOCshOPpquQ&s",
+    role: "Full Stack Developer",
+    company: "Full Scale",
+    date: "Dec 2025 - Current",
+    desc: [
+      "Developed multiple web-based applications with AI Integrations.",
+      "Shared knowledge and expertise through creating tutorials and mentoring other developers in the team.",
+      "Deployed on different clients and managed maintenance.",
+      "Oversaw the overall progress and improvement of the application.",
+      "Develop automation and processes to enable teams to deploy, manage scale and monitor their applications in data centers and in cloud.",
+      "Participated on competitions and hackathons to enhance skills and knowledge on the latest technologies.",
+    ],
+    skills: [
+      "Microsoft IIS",
+      "Git",
+      "ASP.NET Core Web API 6",
+      "ASP.NET Blazor Server",
+      "ASP.NET MVC",
+      "HTML/CSS",
+      "Bootstrap 5,",
+      "RabbitMQ",
+      "SignalR",
+      "Authorize.NET",
+      "FedEx",
+    ],
+  },
 ];
 
 export const education = [
@@ -489,7 +601,7 @@ export const education = [
     school: "Jose Rizal University",
     date: "2025 - 2027",
     grade: "N/A",
-    desc: "Currently pursuing a master's degree in information technology with a specialization in data analytics (Artificial Intelligence).",
+    desc: "Currently pursuing a Master’s degree in Information Technology with a specialization in Data Analytics and Artificial Intelligence, focused on expanding expertise in data-driven decision-making, machine learning, and advanced analytical methods. Dedicated to developing technical, research, and problem-solving skills to address complex challenges in modern technology and innovation.",
     degree: "Master in Information Technology",
   },
   {
@@ -717,6 +829,244 @@ export const projects = [
       "Authorize.NET",
       "FedEx",
       "ImageSharp",
+    ],
+    category: "Warehouse Management",
+    github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
+  {
+    id: 6,
+    title: "Pharmamedyx",
+    date: "Mar 2024 - Present",
+    description: "Pharmamedyx is an application focused on the pharmacy industry in the Philippines, designed to improve healthcare accessibility, medication management, and pharmacy operations. It provides users with convenient access to pharmaceutical services, medicine information, and digital solutions that support efficient, reliable, and patient-centered healthcare delivery across communities.",
+    image: Pharmamedyx,
+    tags: [
+      "Microsoft IIS",
+      "Git",
+      "ReactJS",
+      "ASP.NET Web API",
+      "HTML/CSS",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Authorize.NET",
+      "Open API",
+    ],
+    category: "Warehouse Management",
+    github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
+  {
+    id: 11,
+    title: "Renta-PH",
+    date: "Mar 2024 - Present",
+    description: "Renta-PH is an application designed for landlords in the Philippines, providing a digital platform to simplify property management, tenant monitoring, rent collection, and lease administration. It helps landlords efficiently manage rental operations, organize property records, and improve communication with tenants through a convenient and user-friendly system.",
+    image: RentaPh,
+    tags: [
+      "Next.JS",
+      "Typescript",
+      "Vercel",
+      "Auth0",
+      "Next.JS API Routes",
+      "HTML/CSS",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Github Actions",
+      "Supabase",
+    ],
+    category: "Warehouse Management",
+    github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
+  {
+    id: 13,
+    title: "Romblon Booking App",
+    date: "Mar 2024 - Present",
+    description: "Romblon Booking App is a digital platform designed to simplify travel and reservation services in Romblon, Philippines. The application enables users to conveniently book accommodations, tours, and local travel experiences while supporting tourism growth, improving accessibility, and providing a seamless and user-friendly booking experience for travelers and visitors.",
+    image: Romblon,
+    tags: [
+      "Next.JS",
+      "Typescript",
+      "Vercel",
+      "Auth0",
+      "Next.JS API Routes",
+      "HTML/CSS",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Github Actions",
+      "Supabase",
+    ],
+    category: "Warehouse Management",
+    github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
+   {
+    id: 14,
+    title: "Hiventra AI",
+    date: "Mar 2024 - Present",
+    description: "Hiventra AI is an AI-powered application designed to streamline the recruitment process by conducting initial interviews with candidates. The platform evaluates applicant responses, assists in preliminary screening, and helps organizations improve hiring efficiency through intelligent, automated, and data-driven candidate assessment.",
+    image: Hiventra,
+    tags: [
+      "Claude API",
+      "ElevenLabs API",
+      "Simli",
+      "Next.JS",
+      "Typescript",
+      "Vercel",
+      "Auth0",
+      "Next.JS API Routes",
+      "HTML/CSS",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Github Actions",
+      "Supabase",
+    ],
+    category: "Warehouse Management",
+    github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
+  {
+    id: 15,
+    title: "Beyond Lash",
+    date: "Mar 2024 - Present",
+    description: "Beyond Lash is a client-focused booking application designed for eyelash beauty services, offering a convenient platform for scheduling appointments and managing lash treatments. The app features services including Classic Lashes, Hybrid Lashes, Volume Lashes, Mega Volume, and Lash Lifts, providing clients with a seamless, personalized, and user-friendly beauty booking experience.",
+    image: BeyondLash,
+    tags: [
+      "Next.JS",
+      "Typescript",
+      "Vercel",
+      "Auth0",
+      "Next.JS API Routes",
+      "HTML/CSS",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Github Actions",
+      "Supabase",
+    ],
+    category: "Warehouse Management",
+    github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
+    {
+    id: 16,
+    title: "Flat Bunny",
+    date: "Mar 2024 - Present",
+    description: "Flat Bunny is an e-commerce website designed to provide customers with a convenient and seamless online shopping experience. The platform enables users to browse products, make secure purchases, and manage orders efficiently, while offering a user-friendly interface that supports accessible, reliable, and modern digital commerce solutions.",
+    image: FlatBunny,
+    tags: [
+      "Next.JS",
+      "Typescript",
+      "Vercel",
+      "Auth0",
+      "Next.JS API Routes",
+      "HTML/CSS",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Github Actions",
+      "Supabase",
+    ],
+    category: "Warehouse Management",
+    github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
+   {
+    id: 17,
+    title: "Riviera Maya",
+    date: "Mar 2024 - Present",
+    description: "Riviera Maya is a booking application designed to simplify reservations and travel planning for users. The platform allows customers to conveniently book services, accommodations, or experiences through a streamlined and user-friendly system, providing an efficient, accessible, and seamless booking experience tailored to customer needs.",
+    image: Riviera_maya,
+    tags: [
+      "Next.JS",
+      "Typescript",
+      "Vercel",
+      "Auth0",
+      "Next.JS API Routes",
+      "HTML/CSS",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Github Actions",
+      "Supabase",
+    ],
+    category: "Warehouse Management",
+    github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
+   {
+    id: 18,
+    title: "Pupil Hive",
+    date: "Mar 2024 - Present",
+    description: "Pupil Hive is an AI-powered CRM platform designed for teachers in the Philippines, helping educators manage student information, communication, and academic activities efficiently. The application leverages artificial intelligence to streamline administrative tasks, improve student engagement, and support data-driven decision-making for a more organized and effective teaching experience.",
+    image: PupilHive,
+    tags: [
+      "Claude API",
+      "Next.JS",
+      "Typescript",
+      "Vercel",
+      "Auth0",
+      "Next.JS API Routes",
+      "HTML/CSS",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Github Actions",
+      "Supabase",
+    ],
+    category: "Warehouse Management",
+    github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
+  {
+    id: 19,
+    title: "Tinda-Go",
+    date: "Mar 2024 - Present",
+    description: "Tinda-Go is a AI-Powered Point-of-Sale (POS) system designed for retail businesses in the Philippines, providing an efficient platform for managing sales, inventory, transactions, and business operations. The application helps retailers streamline daily processes, monitor performance, and improve customer service through a reliable, user-friendly, and digital business management solution.",
+    image: TindaGo,
+    tags: [
+       "Claude API",
+       "Microsoft IIS",
+      "Git",
+      "ReactJS",
+      "ASP.NET Web API",
+      "HTML/CSS",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Authorize.NET",
+      "Open API",
+    ],
+    category: "Warehouse Management",
+    github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
+  {
+    id: 20,
+    title: "ACLR POS & Business Systems",
+    date: "Mar 2024 - Present",
+    description: "ACLR POS & Business Systems is a landing page platform for businesses in the Philippines, showcasing Point-of-Sale (POS) solutions and business management services. It highlights digital tools designed to help businesses streamline sales, inventory management, and operational processes through reliable, efficient, and technology-driven POS systems.",
+    image: Aclr,
+    tags: [
+      "Git",
+      "ReactJS",
+      "HTML/CSS",
+      "Shadcn UI",
+      "Tailwind CSS",
+    ],
+    category: "Warehouse Management",
+    github: "https://github.com/rishavchanda/Todo-Web-App",
+    webapp: "https://rishav-react-todo.netlify.app/",
+  },
+   {
+    id: 21,
+    title: "Mcfly DroneCamp",
+    date: "Mar 2024 - Present",
+    description: "Mcfly DroneCamp CRM is a customer relationship management application designed to streamline business operations, customer interactions, and organizational workflows. The platform helps manage client information, communications, scheduling, and operational processes efficiently, providing a centralized, user-friendly, and reliable system for improved business management and customer engagement.",
+    image: Mcfly,
+    tags: [
+      "Git",
+      "Next.JS",
+      "Typescript",
+      "HTML/CSS",
+      "Shadcn UI",
+      "Tailwind CSS",
+      "Supabase",
+      "Vercel",
     ],
     category: "Warehouse Management",
     github: "https://github.com/rishavchanda/Todo-Web-App",

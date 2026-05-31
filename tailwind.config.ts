@@ -8,21 +8,21 @@ export default {
     extend: {
       colors: {
         base: {
-          background: '#FFFDF5',
-          foreground: '#1E293B',
-          muted: '#F1F5F9',
-          border: '#E2E8F0',
+          background: '#f6f5ef',
+          foreground: '#000000',
+          muted: '#f0efe8',
+          border: '#9ca3af',
+          secondary: '#c8c19d',
         },
         accent: {
-          violet: '#8B5CF6',
-          pink: '#F472B6',
-          yellow: '#FBBF24',
-          mint: '#34D399',
+          warm: '#c8c19d',
+          muted: '#9ca3af',
+          red: '#e85d26',
         },
       },
       fontFamily: {
-        display: ['Outfit', 'sans-serif'],
-        body: ['Plus Jakarta Sans', 'sans-serif'],
+        display: ['Space Grotesk', 'sans-serif'],
+        body: ['Space Grotesk', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace'],
       },
       animation: {
