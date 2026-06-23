@@ -6,7 +6,6 @@ export function Hero() {
   const roles = Bio.roles ?? ['Full Stack Developer']
   const ctaItems = [
     { label: 'View My Work', href: '#projects', variant: 'primary' },
-    { label: 'View Resume', href: Bio.resume, variant: 'secondary' },
   ]
 
   const containerVariants = {

@@ -22,23 +22,36 @@ export function Footer() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="pop-card card-lift p-8 text-center mb-12"
+          className="pop-card card-lift p-12 md:p-16 text-center mb-12 relative overflow-hidden"
         >
-          <h3 className="font-display text-3xl md:text-4xl font-bold text-black mb-4">
-            Let's Work Together
+          <div
+            className="absolute rounded-full pointer-events-none"
+            style={{ background: 'rgba(232,93,38,0.08)', width: '300px', height: '300px', top: '-80px', right: '-60px' }}
+          />
+          <div
+            className="absolute rounded-full pointer-events-none"
+            style={{ background: 'rgba(232,93,38,0.05)', width: '200px', height: '200px', bottom: '-50px', left: '-40px' }}
+          />
+
+          <p className="font-mono text-xs uppercase tracking-widest text-[#e85d26] mb-4">Get In Touch</p>
+          <h3 className="font-display text-4xl md:text-6xl font-bold text-black mb-6 leading-tight">
+            Let's Work<br />Together
           </h3>
-          <p className="text-black mb-6 max-w-2xl mx-auto">
-            Open to opportunities and collaborations. Reach out and let's build something great.
+          <p className="text-black/60 text-base mb-10 max-w-xl mx-auto leading-relaxed">
+            Open to opportunities and collaborations.<br />Reach out — let's build something great.
           </p>
+
           <motion.a
-            href={Bio.resume}
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.03 }}
-            whileTap={{ scale: 0.97 }}
-            className="candy-btn"
+            href="mailto:carlargente0156@gmail.com"
+            whileHover={{ x: 6 }}
+            className="inline-flex items-center gap-3 group"
           >
-            View Resume
+            <span className="font-display text-xl md:text-2xl font-bold text-black group-hover:text-[#e85d26] transition-colors duration-200">
+              carlargente0156@gmail.com
+            </span>
+            <svg className="w-6 h-6 text-[#e85d26] transition-transform duration-200 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
           </motion.a>
         </motion.div>
 
